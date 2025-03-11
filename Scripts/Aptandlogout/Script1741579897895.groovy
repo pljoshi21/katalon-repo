@@ -33,10 +33,6 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input
 
 WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control_1'), 'ThisIsNotAPassword')
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/div_Demo account_col-sm-offset-4 col-sm-8'))
-
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
@@ -54,4 +50,6 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Go 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Logout'))
+
+WebUI.closeBrowser()
 
